@@ -36,6 +36,56 @@ struct HomeView: View {
                     .frame(width: .screenWidth,height: .perWidth(per: 1.1))
                     .cornerRadius(25)
                 
+                Image("home_bg")
+                    .resizable()
+                    .scaledToFit()
+                
+                ZStack{//ZStack-5
+                    
+                    ArcShape()
+                        .foregroundStyle(Color.gray.opacity(0.2))
+                    
+                    ArcShape(start: 0,end: 230)
+                        .foregroundStyle(Color.secondaryC)
+                        .shadow(color: .secondaryC.opacity(0.5),radius: 7)
+                    
+                }//ZStack-5
+                .frame(width:.perWidth(per: 0.71),height: .perWidth(per: 0.71))
+                .padding(.bottom,18)
+                
+                VStack(spacing:.perWidth(per: 0.07)) { //VStack-2
+                    
+                    Image("app_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: .perWidth(per: 0.25))
+                    
+                    Text("$1,235")
+                        .font(.customfont(.bold, fontsize: 40))
+                        .foregroundStyle(Color.white)
+                    
+                    Text("This Month's bill")
+                        .font(.customfont(.semibold, fontsize: 14))
+                        .foregroundStyle(Color.gray40)
+                        
+                    
+                    Button{
+                       
+                    }label: {
+                        Text("See your Budgets")
+                            .font(.customfont(.semibold, fontsize: 14))
+                    }
+                    .foregroundStyle(Color.white)
+                    .padding(10)
+                    .background(Color.gray60.opacity(0.2))
+                    .overlay{
+                        RoundedRectangle(cornerRadius:15)
+                            .stroke(Color.gray70,lineWidth: 1)
+                    }
+                    .cornerRadius(12)
+                    
+                }//VStack-2
+                
                 VStack{//VStack-2
                     Spacer()
                     HStack{ // HStack-4
@@ -43,6 +93,14 @@ struct HomeView: View {
                         StatusButton(title: "Active Subs",value: "25",onPressed: {
                             
                         })
+                        
+                        StatusButton(title: "Highest Subs",value: "$19.99",color: .primary10){
+                            
+                        }
+                        
+                        StatusButton(title: "lovset Subs",value: "$5.99",color:.secondaryG){
+                            
+                        }
                         
                     }// HStack-4
                     

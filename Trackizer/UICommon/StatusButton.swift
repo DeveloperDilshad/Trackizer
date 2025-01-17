@@ -11,6 +11,7 @@ struct StatusButton: View {
     
     @State var title : String = "Title"
     @State var value : String = "10"
+    @State var color : Color = .secondaryC
     var onPressed : (()->())?
     
     var body: some View {
@@ -41,7 +42,7 @@ struct StatusButton: View {
                 
                 
                 Rectangle()
-                    .fill(Color.secondaryC)
+                    .fill(color)
                     .frame(width: 60,height: 1)
                 
             }//ZStack-2
