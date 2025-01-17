@@ -1,0 +1,24 @@
+{
+  "source": "/Users/dilshadp/Trackizer/Trackizer/UICommon/UpcomingBillsRow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "JUN",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "25",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 23
+        }
+      }
+    ]
+  },
+  "version": 1
+}
