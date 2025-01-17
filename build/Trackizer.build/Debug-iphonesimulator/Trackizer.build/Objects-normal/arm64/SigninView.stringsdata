@@ -1,0 +1,40 @@
+{
+  "source": "/Users/dilshadp/Trackizer/Trackizer/View/Login/SigninView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Do you have already an account ",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Forgot Password",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Forgot Password",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 59
+        }
+      }
+    ]
+  },
+  "version": 1
+}

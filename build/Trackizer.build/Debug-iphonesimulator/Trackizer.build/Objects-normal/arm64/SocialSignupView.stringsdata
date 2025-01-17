@@ -1,0 +1,56 @@
+{
+  "source": "/Users/dilshadp/Trackizer/Trackizer/View/Login/SocialSignupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "or ",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "By Resistering you agree to our Terms of Use. Learn how we collect, use and share your data  ",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signup with apple",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signup with Google",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signup with Facebook",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 89
+        }
+      }
+    ]
+  },
+  "version": 1
+}
